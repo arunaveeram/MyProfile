@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const tableContent = [
   { skill: "Programming Language", description: "Core Java, SQL, PL/SQL" },
@@ -72,7 +72,7 @@ const tableContent = [
     skill: "Cloud Developments",
     description: "AWS, EC2, S3, Elastic",
   },
-]
+];
 
 const SkillsTable = () => (
   <div className="table">
@@ -83,7 +83,7 @@ const SkillsTable = () => (
       </div>
     ))}
   </div>
-)
+);
 
 const TechnicalSkills = () => {
   return (
@@ -91,7 +91,7 @@ const TechnicalSkills = () => {
       <h3 className="leftHeader">SKILLS: </h3>
       <SkillsTable />
     </div>
-  )
-}
+  );
+};
 
-export default TechnicalSkills
+export default TechnicalSkills;

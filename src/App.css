@@ -1,7 +1,7 @@
 .App {
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+  padding: 30px;
+  margin: 30px;
 }
 .resumeTitle {
   text-align: center;
@@ -23,6 +23,7 @@
 }
 .leftHeader {
   text-align: left;
+  text-decoration: underline;
 }
 .table {
   border: 1px solid #111111;
@@ -49,4 +50,18 @@
 .columnRight {
   flex: 70%;
   padding: 10px;
+}
+.experienceHeader {
+  font-weight: bold;
+  text-align: left;
+}
+.clientDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

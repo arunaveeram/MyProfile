@@ -1,8 +1,8 @@
-
-import './App.css';
-import ProfessionalExperience from './components/professionalExperience';
-import AdditionalInfo from './components/additionalInfo';
-import TechnicalSkills from './components/technicalSkills';
+import "./App.css";
+import AdditionalInfo from "./components/additionalInfo";
+import Experience from "./components/experience";
+import ProfessionalExperience from "./components/professionalExperience";
+import TechnicalSkills from "./components/technicalSkills";
 function App() {
   return (
     <div className="App">
@@ -12,10 +12,11 @@ function App() {
           <h2>Full Stack Developer</h2>
           <AdditionalInfo />
           <ProfessionalExperience />
-          <TechnicalSkills />           
-       </div>
-     </header>
-  </div>
+          <TechnicalSkills />
+          <Experience />
+        </div>
+      </header>
+    </div>
   );
 }
 
