@@ -1,5 +1,6 @@
 import "./App.css";
 import AdditionalInfo from "./components/additionalInfo";
+import Education from "./components/education";
 import Experience from "./components/experience";
 import ProfessionalExperience from "./components/professionalExperience";
 import TechnicalSkills from "./components/technicalSkills";
@@ -14,6 +15,7 @@ function App() {
           <ProfessionalExperience />
           <TechnicalSkills />
           <Experience />
+          <Education />
         </div>
       </header>
     </div>
