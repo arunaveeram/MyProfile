@@ -3,24 +3,50 @@
   padding: 10px;
   margin: 10px;
 }
-.resumeTitle{
-    text-align: center;
+.resumeTitle {
+  text-align: center;
 }
-.additionalInfo{
-    display: flex;                  /* establish flex container */
-    flex-direction: row;            /* default value; can be omitted */
-    flex-wrap: nowrap;              /* default value; can be omitted */
-    justify-content: space-between;
+.additionalInfo {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  justify-content: space-between;
 }
-.contactDetails{
+.contactDetails {
   text-align: left;
 }
-.urlInfo{
-    text-align: right;
+.urlInfo {
+  text-align: right;
 }
-.list{
+.list {
   text-align: left;
 }
-.leftHeader{
+.leftHeader {
   text-align: left;
+}
+.table {
+  border: 1px solid #111111;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.columnLeft {
+  flex: 30%;
+  padding: 10px;
+  border-right: 1px solid #111111;
+}
+.columnRight {
+  flex: 70%;
+  padding: 10px;
 }

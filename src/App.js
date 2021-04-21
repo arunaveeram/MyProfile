@@ -12,7 +12,7 @@ function App() {
           <h2>Full Stack Developer</h2>
           <AdditionalInfo />
           <ProfessionalExperience />
-          <TechnicalSkills />
+          <TechnicalSkills />           
        </div>
      </header>
   </div>
